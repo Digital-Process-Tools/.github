@@ -13,3 +13,4 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
 | Project | Description |
 |---------|-------------|
 | [claude-remember](https://github.com/Digital-Process-Tools/claude-remember) | Continuous memory for Claude Code — automatic session persistence, compression, and identity across sessions |
+| [claude-marketplace](https://github.com/Digital-Process-Tools/claude-marketplace) | Our plugin marketplace for Claude Code — install and update our plugins independently |
