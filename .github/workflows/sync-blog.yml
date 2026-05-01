@@ -1,0 +1,67 @@
+name: Sync blog posts to README
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update README from feed
+        run: |
+          python3 - <<'PY'
+          import re
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from html import unescape
+          from pathlib import Path
+
+          FEED_URL = "https://max.dp.tools/feed.xml"
+          README = Path("profile/README.md")
+          MAX_POSTS = 5
+
+          xml = urllib.request.urlopen(FEED_URL, timeout=10).read()
+          root = ET.fromstring(xml)
+          items = root.findall(".//item")[:MAX_POSTS]
+
+          lines = []
+          for item in items:
+              title = unescape((item.findtext("title") or "").strip())
+              link = (item.findtext("link") or "").strip()
+              summary = unescape((item.findtext("description") or "").strip())
+              lines.append(f"- [**{title}**]({link}) — {summary}")
+
+          block = "\n".join(lines) if lines else "_No posts yet._"
+          content = README.read_text()
+          new = re.sub(
+              r"<!-- BLOG:START -->.*?<!-- BLOG:END -->",
+              f"<!-- BLOG:START -->\n{block}\n<!-- BLOG:END -->",
+              content,
+              flags=re.DOTALL,
+          )
+
+          if new != content:
+              README.write_text(new)
+              print("README updated")
+          else:
+              print("No change")
+          PY
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "max-bot"
+          git config user.email "noreply@digitalprocesstools.com"
+          git add profile/README.md
+          git commit -m "chore: sync latest blog posts"
+          git push
