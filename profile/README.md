@@ -14,14 +14,14 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Digital-Process-Tools/claude-supertool">
-        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/master/supertool-banner.webp" alt="claude-supertool">
+        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/master/supertool-banner.webp" width="420" alt="claude-supertool">
       </a>
       <h4><a href="https://github.com/Digital-Process-Tools/claude-supertool">claude-supertool</a></h4>
       <p>Batched file operations for Claude Code. Collapse N reads/greps/globs into one round-trip, with opt-in enforcement mode.</p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread">
-        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-5h-window-spread/main/banner.png" alt="claude-5h-window-spread">
+        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-5h-window-spread/main/banner.png" width="420" alt="claude-5h-window-spread">
       </a>
       <h4><a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread">claude-5h-window-spread</a></h4>
       <p>Spread your Claude Pro/Max usage across more 5h windows. Up to 33% more effective cap. No cloud, no credentials.</p>
@@ -43,33 +43,41 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
 
 > Cold-start tax dies. Three drop-in MCP servers that keep heavy PHP analyzers bootstrapped between calls. Works with Claude Desktop, Cline, Continue, Cursor, Zed — any MCP client.
 
-<p align="center">
-  <a href="https://github.com/Digital-Process-Tools/mcp-phpstan-warm">
-    <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpstan-warm/main/banner.png" width="900" alt="mcp-phpstan-warm — worker stays warm">
-  </a>
-</p>
-
-**[mcp-phpstan-warm](https://github.com/Digital-Process-Tools/mcp-phpstan-warm)** — PHPStan static analysis. Cold ~1-3s → warm sub-100ms via persistent worker.
-
-<p align="center">
-  <a href="https://github.com/Digital-Process-Tools/mcp-rector-warm">
-    <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-rector-warm/main/banner.png" width="900" alt="mcp-rector-warm — 9× faster per edit">
-  </a>
-</p>
-
-**[mcp-rector-warm](https://github.com/Digital-Process-Tools/mcp-rector-warm)** — Rector refactoring. Cold ~4.5s → warm ~500ms (~9× per call).
-
-<p align="center">
-  <a href="https://github.com/Digital-Process-Tools/mcp-phpunit-warm">
-    <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpunit-warm/main/banner.png" width="900" alt="mcp-phpunit-warm — every test warm">
-  </a>
-</p>
-
-**[mcp-phpunit-warm](https://github.com/Digital-Process-Tools/mcp-phpunit-warm)** — PHPUnit test runs. Cold ~1.6s → warm ~300ms (~6× per call).
-
-```bash
-composer global require dpt/mcp-phpstan-warm dpt/mcp-rector-warm dpt/mcp-phpunit-warm
-```
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Digital-Process-Tools/mcp-phpstan-warm">
+        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpstan-warm/main/banner.png" width="420" alt="mcp-phpstan-warm">
+      </a>
+      <h4><a href="https://github.com/Digital-Process-Tools/mcp-phpstan-warm">mcp-phpstan-warm</a></h4>
+      <p>PHPStan static analysis. Cold ~1-3s → warm sub-100ms via persistent worker.</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Digital-Process-Tools/mcp-rector-warm">
+        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-rector-warm/main/banner.png" width="420" alt="mcp-rector-warm">
+      </a>
+      <h4><a href="https://github.com/Digital-Process-Tools/mcp-rector-warm">mcp-rector-warm</a></h4>
+      <p>Rector refactoring. Cold ~4.5s → warm ~500ms (~9× per call).</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Digital-Process-Tools/mcp-phpunit-warm">
+        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpunit-warm/main/banner.png" width="420" alt="mcp-phpunit-warm">
+      </a>
+      <h4><a href="https://github.com/Digital-Process-Tools/mcp-phpunit-warm">mcp-phpunit-warm</a></h4>
+      <p>PHPUnit test runs. Cold ~1.6s → warm ~300ms (~6× per call).</p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Install all three</h4>
+      <pre><code>composer global require \
+  dpt/mcp-phpstan-warm \
+  dpt/mcp-rector-warm \
+  dpt/mcp-phpunit-warm</code></pre>
+      <p>One <code>composer global require</code>, three warm daemons. Wire into any MCP client.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
