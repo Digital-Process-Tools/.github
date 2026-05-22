@@ -18,7 +18,7 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
       </a>
     </td>
     <td valign="top">
-      <h3><a href="https://github.com/Digital-Process-Tools/claude-supertool">claude-supertool</a></h3>
+      <a href="https://github.com/Digital-Process-Tools/claude-supertool"><strong>claude-supertool</strong></a><br>
       Batched file operations for Claude Code. Collapse N reads/greps/globs into one round-trip, with opt-in enforcement mode.
     </td>
   </tr>
@@ -29,7 +29,7 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
       </a>
     </td>
     <td valign="top">
-      <h3><a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread">claude-5h-window-spread</a></h3>
+      <a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread"><strong>claude-5h-window-spread</strong></a><br>
       Spread your Claude Pro/Max usage across more 5h windows. Up to 33% more effective cap. No cloud, no credentials.
     </td>
   </tr>
@@ -38,7 +38,7 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
       <sub><em>banner coming soon</em></sub>
     </td>
     <td valign="top">
-      <h3><a href="https://github.com/Digital-Process-Tools/claude-remember">claude-remember</a></h3>
+      <a href="https://github.com/Digital-Process-Tools/claude-remember"><strong>claude-remember</strong></a><br>
       Continuous memory for Claude Code. Automatic session persistence, compression, and identity across sessions.
     </td>
   </tr>
@@ -47,7 +47,7 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
       <sub><em>banner coming soon</em></sub>
     </td>
     <td valign="top">
-      <h3><a href="https://github.com/Digital-Process-Tools/claude-marketplace">claude-marketplace</a></h3>
+      <a href="https://github.com/Digital-Process-Tools/claude-marketplace"><strong>claude-marketplace</strong></a><br>
       Our plugin marketplace for Claude Code. Install and update our plugins independently — <code>/plugin marketplace add Digital-Process-Tools/claude-marketplace</code>.
     </td>
   </tr>
@@ -65,7 +65,7 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
       </a>
     </td>
     <td valign="top">
-      <h3><a href="https://github.com/Digital-Process-Tools/mcp-phpstan-warm">mcp-phpstan-warm</a></h3>
+      <a href="https://github.com/Digital-Process-Tools/mcp-phpstan-warm"><strong>mcp-phpstan-warm</strong></a><br>
       PHPStan static analysis. Cold ~1-3s → warm sub-100ms via persistent worker.
     </td>
   </tr>
@@ -76,7 +76,7 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
       </a>
     </td>
     <td valign="top">
-      <h3><a href="https://github.com/Digital-Process-Tools/mcp-rector-warm">mcp-rector-warm</a></h3>
+      <a href="https://github.com/Digital-Process-Tools/mcp-rector-warm"><strong>mcp-rector-warm</strong></a><br>
       Rector refactoring. Cold ~4.5s → warm ~500ms (~9× per call).
     </td>
   </tr>
@@ -87,7 +87,7 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
       </a>
     </td>
     <td valign="top">
-      <h3><a href="https://github.com/Digital-Process-Tools/mcp-phpunit-warm">mcp-phpunit-warm</a></h3>
+      <a href="https://github.com/Digital-Process-Tools/mcp-phpunit-warm"><strong>mcp-phpunit-warm</strong></a><br>
       PHPUnit test runs. Cold ~1.6s → warm ~300ms (~6× per call).
     </td>
   </tr>
