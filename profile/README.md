@@ -12,23 +12,29 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
 
 ### [claude-supertool](https://github.com/Digital-Process-Tools/claude-supertool)
 
-<a href="https://github.com/Digital-Process-Tools/claude-supertool"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/master/supertool-banner.webp" alt="claude-supertool" hspace="20" vspace="6"></a><br>
+<a href="https://github.com/Digital-Process-Tools/claude-supertool"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/master/supertool-banner.webp" alt="claude-supertool" hspace="20" vspace="6"></a>
 
 Batched file operations for Claude Code. Collapse N reads/greps/globs into one round-trip, with opt-in enforcement mode.
 
 <br clear="left">
 
+<br>
+
 ### [claude-5h-window-spread](https://github.com/Digital-Process-Tools/claude-5h-window-spread)
 
-<a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-5h-window-spread/main/banner.png" alt="claude-5h-window-spread" hspace="20" vspace="6"></a><br>
+<a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-5h-window-spread/main/banner.png" alt="claude-5h-window-spread" hspace="20" vspace="6"></a>
 
 Spread your Claude Pro/Max usage across more 5h windows. Up to 33% more effective cap. No cloud, no credentials.
 
 <br clear="left">
 
+<br>
+
 ### [claude-remember](https://github.com/Digital-Process-Tools/claude-remember)
 
 Continuous memory for Claude Code. Automatic session persistence, compression, and identity across sessions.
+
+<br>
 
 ### [claude-marketplace](https://github.com/Digital-Process-Tools/claude-marketplace)
 
@@ -40,23 +46,27 @@ Our plugin marketplace for Claude Code. Install and update our plugins independe
 
 ### [mcp-phpstan-warm](https://github.com/Digital-Process-Tools/mcp-phpstan-warm)
 
-<a href="https://github.com/Digital-Process-Tools/mcp-phpstan-warm"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpstan-warm/main/banner.png" alt="mcp-phpstan-warm" hspace="20" vspace="6"></a><br>
+<a href="https://github.com/Digital-Process-Tools/mcp-phpstan-warm"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpstan-warm/main/banner.png" alt="mcp-phpstan-warm" hspace="20" vspace="6"></a>
 
 PHPStan static analysis. Cold ~1-3s → warm sub-100ms via persistent worker.
 
 <br clear="left">
 
+<br>
+
 ### [mcp-rector-warm](https://github.com/Digital-Process-Tools/mcp-rector-warm)
 
-<a href="https://github.com/Digital-Process-Tools/mcp-rector-warm"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-rector-warm/main/banner.png" alt="mcp-rector-warm" hspace="20" vspace="6"></a><br>
+<a href="https://github.com/Digital-Process-Tools/mcp-rector-warm"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-rector-warm/main/banner.png" alt="mcp-rector-warm" hspace="20" vspace="6"></a>
 
 Rector refactoring. Cold ~4.5s → warm ~500ms (~9× per call).
 
 <br clear="left">
 
+<br>
+
 ### [mcp-phpunit-warm](https://github.com/Digital-Process-Tools/mcp-phpunit-warm)
 
-<a href="https://github.com/Digital-Process-Tools/mcp-phpunit-warm"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpunit-warm/main/banner.png" alt="mcp-phpunit-warm" hspace="20" vspace="6"></a><br>
+<a href="https://github.com/Digital-Process-Tools/mcp-phpunit-warm"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpunit-warm/main/banner.png" alt="mcp-phpunit-warm" hspace="20" vspace="6"></a>
 
 PHPUnit test runs. Cold ~1.6s → warm ~300ms (~6× per call).
 
