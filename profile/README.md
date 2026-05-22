@@ -97,10 +97,6 @@ Drop-in MCP server. Works with Claude Desktop, Cline, Continue, Cursor, Zed.
 
 <br clear="left">
 
-```bash
-composer global require dpt/mcp-phpstan-warm dpt/mcp-rector-warm dpt/mcp-phpunit-warm
-```
-
 ---
 
 ## Latest from [max.dp.tools](https://max.dp.tools)
