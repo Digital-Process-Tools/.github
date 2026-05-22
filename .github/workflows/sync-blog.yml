@@ -31,14 +31,33 @@ jobs:
           root = ET.fromstring(xml)
           items = root.findall(".//item")[:MAX_POSTS]
 
-          lines = []
-          for item in items:
+          def og_image(url):
+              try:
+                  html = urllib.request.urlopen(url, timeout=10).read().decode("utf-8", "ignore")
+                  m = re.search(r'<meta\s+property="og:image"\s+content="([^"]+)"', html)
+                  return m.group(1) if m else None
+              except Exception:
+                  return None
+
+          cards = []
+          for idx, item in enumerate(items):
               title = unescape((item.findtext("title") or "").strip())
               link = (item.findtext("link") or "").strip()
               summary = unescape((item.findtext("description") or "").strip())
-              lines.append(f"- [**{title}**]({link}) — {summary}")
+              img = og_image(link)
 
-          block = "\n".join(lines) if lines else "_No posts yet._"
+              sep = "<br>\n\n" if idx > 0 else ""
+              if img:
+                  cards.append(
+                      f"{sep}### [{title}]({link})\n\n"
+                      f'<a href="{link}"><img align="left" width="320" src="{img}" alt="{title}" hspace="20" vspace="6"></a>\n\n'
+                      f"{summary}\n\n"
+                      f'<br clear="left">'
+                  )
+              else:
+                  cards.append(f"{sep}### [{title}]({link})\n\n{summary}")
+
+          block = "\n\n".join(cards) if cards else "_No posts yet._"
           content = README.read_text()
           new = re.sub(
               r"<!-- BLOG:START -->.*?<!-- BLOG:END -->",
