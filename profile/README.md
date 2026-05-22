@@ -47,9 +47,13 @@ Plain-text files in `.remember/`, editable, gitignored. You own the memory.
 
 ### [claude-marketplace](https://github.com/Digital-Process-Tools/claude-marketplace)
 
+<a href="https://github.com/Digital-Process-Tools/claude-marketplace"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-marketplace/master/banner.png" alt="claude-marketplace" hspace="20" vspace="6"></a>
+
 Our plugin marketplace for Claude Code. One command, all our plugins discoverable and updatable.  
 `/plugin marketplace add Digital-Process-Tools/claude-marketplace` then `/plugin install ...`.  
 New plugins land here as we open-source them — no separate install chain to track.
+
+<br clear="left">
 
 ## MCP servers
 
