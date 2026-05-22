@@ -12,25 +12,34 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
 
 ### Claude plugins
 
-<p align="center">
-  <a href="https://github.com/Digital-Process-Tools/claude-supertool">
-    <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/main/supertool-banner.webp" width="900" alt="claude-supertool — batched file operations">
-  </a>
-</p>
-
-**[claude-supertool](https://github.com/Digital-Process-Tools/claude-supertool)** — Batched file operations for Claude Code. Collapse N reads/greps/globs into one round-trip, with opt-in enforcement mode.
-
-<p align="center">
-  <a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread">
-    <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-5h-window-spread/main/banner.png" width="900" alt="claude-5h-window-spread — stop hitting your cap">
-  </a>
-</p>
-
-**[claude-5h-window-spread](https://github.com/Digital-Process-Tools/claude-5h-window-spread)** — Spread your Claude Pro/Max usage across more 5h windows. Up to 33% more effective cap. No cloud, no credentials.
-
-**[claude-remember](https://github.com/Digital-Process-Tools/claude-remember)** — Continuous memory for Claude Code. Automatic session persistence, compression, and identity across sessions.
-
-**[claude-marketplace](https://github.com/Digital-Process-Tools/claude-marketplace)** — Our plugin marketplace for Claude Code. Install and update our plugins independently.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Digital-Process-Tools/claude-supertool">
+        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/main/supertool-banner.webp" alt="claude-supertool">
+      </a>
+      <h4><a href="https://github.com/Digital-Process-Tools/claude-supertool">claude-supertool</a></h4>
+      <p>Batched file operations for Claude Code. Collapse N reads/greps/globs into one round-trip, with opt-in enforcement mode.</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread">
+        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-5h-window-spread/main/banner.png" alt="claude-5h-window-spread">
+      </a>
+      <h4><a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread">claude-5h-window-spread</a></h4>
+      <p>Spread your Claude Pro/Max usage across more 5h windows. Up to 33% more effective cap. No cloud, no credentials.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/Digital-Process-Tools/claude-remember">claude-remember</a></h4>
+      <p>Continuous memory for Claude Code. Automatic session persistence, compression, and identity across sessions.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/Digital-Process-Tools/claude-marketplace">claude-marketplace</a></h4>
+      <p>Our plugin marketplace for Claude Code. Install and update our plugins independently — <code>/plugin marketplace add Digital-Process-Tools/claude-marketplace</code>.</p>
+    </td>
+  </tr>
+</table>
 
 ### MCP servers
 
