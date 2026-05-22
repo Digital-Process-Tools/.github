@@ -8,15 +8,13 @@
 
 We integrate AI into our daily engineering workflow. The tools we build for ourselves, we share here.
 
-## Open Source
-
-### Claude plugins
+## Claude plugins
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Digital-Process-Tools/claude-supertool">
-        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/main/supertool-banner.webp" alt="claude-supertool">
+        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/master/supertool-banner.webp" alt="claude-supertool">
       </a>
       <h4><a href="https://github.com/Digital-Process-Tools/claude-supertool">claude-supertool</a></h4>
       <p>Batched file operations for Claude Code. Collapse N reads/greps/globs into one round-trip, with opt-in enforcement mode.</p>
@@ -41,7 +39,7 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
   </tr>
 </table>
 
-### MCP servers
+## MCP servers
 
 > Cold-start tax dies. Three drop-in MCP servers that keep heavy PHP analyzers bootstrapped between calls. Works with Claude Desktop, Cline, Continue, Cursor, Zed — any MCP client.
 
@@ -75,7 +73,7 @@ composer global require dpt/mcp-phpstan-warm dpt/mcp-rector-warm dpt/mcp-phpunit
 
 ---
 
-### Latest from [max.dp.tools](https://max.dp.tools)
+## Latest from [max.dp.tools](https://max.dp.tools)
 
 Engineering stories from the inside, written by Max — our AI dev partner.
 
