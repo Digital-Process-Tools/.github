@@ -12,28 +12,42 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="340">
       <a href="https://github.com/Digital-Process-Tools/claude-supertool">
-        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/master/supertool-banner.webp" width="420" alt="claude-supertool">
+        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/master/supertool-banner.webp" width="320" alt="claude-supertool">
       </a>
-      <h4><a href="https://github.com/Digital-Process-Tools/claude-supertool">claude-supertool</a></h4>
+    </td>
+    <td valign="top">
+      <h3><a href="https://github.com/Digital-Process-Tools/claude-supertool">claude-supertool</a></h3>
       <p>Batched file operations for Claude Code. Collapse N reads/greps/globs into one round-trip, with opt-in enforcement mode.</p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="340">
       <a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread">
-        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-5h-window-spread/main/banner.png" width="420" alt="claude-5h-window-spread">
+        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-5h-window-spread/main/banner.png" width="320" alt="claude-5h-window-spread">
       </a>
-      <h4><a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread">claude-5h-window-spread</a></h4>
+    </td>
+    <td valign="top">
+      <h3><a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread">claude-5h-window-spread</a></h3>
       <p>Spread your Claude Pro/Max usage across more 5h windows. Up to 33% more effective cap. No cloud, no credentials.</p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Digital-Process-Tools/claude-remember">claude-remember</a></h4>
+    <td width="340" align="center">
+      <em>banner coming soon</em>
+    </td>
+    <td valign="top">
+      <h3><a href="https://github.com/Digital-Process-Tools/claude-remember">claude-remember</a></h3>
       <p>Continuous memory for Claude Code. Automatic session persistence, compression, and identity across sessions.</p>
     </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/Digital-Process-Tools/claude-marketplace">claude-marketplace</a></h4>
+  </tr>
+  <tr>
+    <td width="340" align="center">
+      <em>banner coming soon</em>
+    </td>
+    <td valign="top">
+      <h3><a href="https://github.com/Digital-Process-Tools/claude-marketplace">claude-marketplace</a></h3>
       <p>Our plugin marketplace for Claude Code. Install and update our plugins independently — <code>/plugin marketplace add Digital-Process-Tools/claude-marketplace</code>.</p>
     </td>
   </tr>
@@ -45,39 +59,43 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="340">
       <a href="https://github.com/Digital-Process-Tools/mcp-phpstan-warm">
-        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpstan-warm/main/banner.png" width="420" alt="mcp-phpstan-warm">
+        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpstan-warm/main/banner.png" width="320" alt="mcp-phpstan-warm">
       </a>
-      <h4><a href="https://github.com/Digital-Process-Tools/mcp-phpstan-warm">mcp-phpstan-warm</a></h4>
+    </td>
+    <td valign="top">
+      <h3><a href="https://github.com/Digital-Process-Tools/mcp-phpstan-warm">mcp-phpstan-warm</a></h3>
       <p>PHPStan static analysis. Cold ~1-3s → warm sub-100ms via persistent worker.</p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="340">
       <a href="https://github.com/Digital-Process-Tools/mcp-rector-warm">
-        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-rector-warm/main/banner.png" width="420" alt="mcp-rector-warm">
+        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-rector-warm/main/banner.png" width="320" alt="mcp-rector-warm">
       </a>
-      <h4><a href="https://github.com/Digital-Process-Tools/mcp-rector-warm">mcp-rector-warm</a></h4>
+    </td>
+    <td valign="top">
+      <h3><a href="https://github.com/Digital-Process-Tools/mcp-rector-warm">mcp-rector-warm</a></h3>
       <p>Rector refactoring. Cold ~4.5s → warm ~500ms (~9× per call).</p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="340">
       <a href="https://github.com/Digital-Process-Tools/mcp-phpunit-warm">
-        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpunit-warm/main/banner.png" width="420" alt="mcp-phpunit-warm">
+        <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpunit-warm/main/banner.png" width="320" alt="mcp-phpunit-warm">
       </a>
-      <h4><a href="https://github.com/Digital-Process-Tools/mcp-phpunit-warm">mcp-phpunit-warm</a></h4>
-      <p>PHPUnit test runs. Cold ~1.6s → warm ~300ms (~6× per call).</p>
     </td>
-    <td width="50%" valign="top">
-      <h4>Install all three</h4>
-      <pre><code>composer global require \
-  dpt/mcp-phpstan-warm \
-  dpt/mcp-rector-warm \
-  dpt/mcp-phpunit-warm</code></pre>
-      <p>One <code>composer global require</code>, three warm daemons. Wire into any MCP client.</p>
+    <td valign="top">
+      <h3><a href="https://github.com/Digital-Process-Tools/mcp-phpunit-warm">mcp-phpunit-warm</a></h3>
+      <p>PHPUnit test runs. Cold ~1.6s → warm ~300ms (~6× per call).</p>
     </td>
   </tr>
 </table>
+
+```bash
+composer global require dpt/mcp-phpstan-warm dpt/mcp-rector-warm dpt/mcp-phpunit-warm
+```
 
 ---
 
