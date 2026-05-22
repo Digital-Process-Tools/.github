@@ -17,7 +17,10 @@ Memory, batched ops, plugin marketplace, cap management — built for our workfl
 
 <a href="https://github.com/Digital-Process-Tools/claude-supertool"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/master/supertool-banner.webp" alt="claude-supertool" hspace="20" vspace="6"></a>
 
-Batched file operations for Claude Code. Collapse N reads/greps/globs into one round-trip, with opt-in enforcement mode.
+Batched file operations for Claude Code. Collapse N reads/greps/globs into one bash round-trip.  
+Cuts output tokens, cache re-payments, wall time — the three bills that compound on autonomous runs.  
+Ships with `verify_staged`, `git-status`, `mr`, `mysql_read` and other variants that add hints the raw command doesn't carry.  
+Opt-in enforcement mode blocks competing tools so even busy agents stay in the lane.
 
 <br clear="left">
 
@@ -27,7 +30,10 @@ Batched file operations for Claude Code. Collapse N reads/greps/globs into one r
 
 <a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-5h-window-spread/main/banner.png" alt="claude-5h-window-spread" hspace="20" vspace="6"></a>
 
-Spread your Claude Pro/Max usage across more 5h windows. Up to 33% more effective cap. No cloud, no credentials.
+Spread your Claude Pro/Max usage across more 5h windows. Up to 33% more effective cap from the same plan.  
+For devs locked out at 17:20 with 40 minutes of work left — no more mid-debug lockouts.  
+Skill (packaged as plugin) that analyses transcript history and computes optimal cron pings.  
+No cloud, no credentials, no third-party API. Just a local schedule.
 
 <br clear="left">
 
@@ -35,13 +41,19 @@ Spread your Claude Pro/Max usage across more 5h windows. Up to 33% more effectiv
 
 ### [claude-remember](https://github.com/Digital-Process-Tools/claude-remember)
 
-Continuous memory for Claude Code. Automatic session persistence, compression, and identity across sessions.
+Continuous memory for Claude Code. Sessions are extracted, summarized, and compressed into layered daily logs.  
+Claude remembers what you did yesterday — not just last turn.  
+Five layers like a brain: buffer, daily, recent, archive, core memories.  
+Plain-text files in `.remember/`, editable, gitignored. You own the memory.
 
 <br>
 
 ### [claude-marketplace](https://github.com/Digital-Process-Tools/claude-marketplace)
 
-Our plugin marketplace for Claude Code. Install and update our plugins independently — `/plugin marketplace add Digital-Process-Tools/claude-marketplace`.
+Our plugin marketplace for Claude Code. One command, all our plugins discoverable and updatable.  
+`/plugin marketplace add Digital-Process-Tools/claude-marketplace` then `/plugin install ...`.  
+New plugins land here as we open-source them — no separate install chain to track.  
+Plain JSON manifest, no proprietary registry.
 
 ## MCP servers
 
@@ -52,7 +64,10 @@ Works with Claude Desktop, Cline, Continue, Cursor, Zed — any MCP client.
 
 <a href="https://github.com/Digital-Process-Tools/mcp-phpstan-warm"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpstan-warm/main/banner.png" alt="mcp-phpstan-warm" hspace="20" vspace="6"></a>
 
-PHPStan static analysis. Cold ~1-3s → warm sub-100ms via persistent worker.
+PHPStan static analysis with the cold-start tax removed. Cold ~1-3s → warm sub-100ms per analyse.  
+Uses PHPStan's own `worker` subcommand (TCP NDJSON, same protocol as `--parallel`) to keep one worker alive.  
+First call boots; every subsequent call reuses the live worker.  
+Drop-in MCP server. Works with Claude Desktop, Cline, Continue, Cursor, Zed.
 
 <br clear="left">
 
@@ -62,7 +77,10 @@ PHPStan static analysis. Cold ~1-3s → warm sub-100ms via persistent worker.
 
 <a href="https://github.com/Digital-Process-Tools/mcp-rector-warm"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-rector-warm/main/banner.png" alt="mcp-rector-warm" hspace="20" vspace="6"></a>
 
-Rector refactoring. Cold ~4.5s → warm ~500ms (~9× per call).
+Rector refactoring with the container kept warm between calls. Cold ~4.5s → warm ~500ms (~9× per call).  
+Container, ruleset, autoloader bootstrapped once. Reused per call.  
+For agents and validators that run Rector after every edit, the cold-start tax dominated wall time. Not anymore.  
+Drop-in MCP server. Works with Claude Desktop, Cline, Continue, Cursor, Zed.
 
 <br clear="left">
 
@@ -72,7 +90,10 @@ Rector refactoring. Cold ~4.5s → warm ~500ms (~9× per call).
 
 <a href="https://github.com/Digital-Process-Tools/mcp-phpunit-warm"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpunit-warm/main/banner.png" alt="mcp-phpunit-warm" hspace="20" vspace="6"></a>
 
-PHPUnit test runs. Cold ~1.6s → warm ~300ms (~6× per call).
+PHPUnit test runs with the bootstrap tax paid once. Cold ~1.6s → warm ~300ms (~6× per call).  
+Results captured in-memory via EventFacade subscribers — no JUnit XML round-trip.  
+Five static singletons reset between calls so the warm process stays correct.  
+Drop-in MCP server. Works with Claude Desktop, Cline, Continue, Cursor, Zed.
 
 <br clear="left">
 
