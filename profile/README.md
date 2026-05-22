@@ -8,14 +8,61 @@
 
 We integrate AI into our daily engineering workflow. The tools we build for ourselves, we share here.
 
-### Open Source
+## Open Source
 
-| Project | Description |
-|---------|-------------|
-| [claude-remember](https://github.com/Digital-Process-Tools/claude-remember) | Continuous memory for Claude Code — automatic session persistence, compression, and identity across sessions |
-| [claude-supertool](https://github.com/Digital-Process-Tools/claude-supertool) | Batched file operations for Claude Code — collapse N reads/greps/globs into one round-trip, with opt-in enforcement mode |
-| [claude-marketplace](https://github.com/Digital-Process-Tools/claude-marketplace) | Our plugin marketplace for Claude Code — install and update our plugins independently |
-| [claude-5h-window-spread](https://github.com/Digital-Process-Tools/claude-5h-window-spread) | Spread your Claude Pro/Max usage across more 5h windows — up to 33% more effective cap, no cloud, no credentials |
+### Claude plugins
+
+<p align="center">
+  <a href="https://github.com/Digital-Process-Tools/claude-supertool">
+    <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/main/supertool-banner.webp" width="900" alt="claude-supertool — batched file operations">
+  </a>
+</p>
+
+**[claude-supertool](https://github.com/Digital-Process-Tools/claude-supertool)** — Batched file operations for Claude Code. Collapse N reads/greps/globs into one round-trip, with opt-in enforcement mode.
+
+<p align="center">
+  <a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread">
+    <img src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-5h-window-spread/main/banner.png" width="900" alt="claude-5h-window-spread — stop hitting your cap">
+  </a>
+</p>
+
+**[claude-5h-window-spread](https://github.com/Digital-Process-Tools/claude-5h-window-spread)** — Spread your Claude Pro/Max usage across more 5h windows. Up to 33% more effective cap. No cloud, no credentials.
+
+**[claude-remember](https://github.com/Digital-Process-Tools/claude-remember)** — Continuous memory for Claude Code. Automatic session persistence, compression, and identity across sessions.
+
+**[claude-marketplace](https://github.com/Digital-Process-Tools/claude-marketplace)** — Our plugin marketplace for Claude Code. Install and update our plugins independently.
+
+### MCP servers
+
+> Cold-start tax dies. Three drop-in MCP servers that keep heavy PHP analyzers bootstrapped between calls. Works with Claude Desktop, Cline, Continue, Cursor, Zed — any MCP client.
+
+<p align="center">
+  <a href="https://github.com/Digital-Process-Tools/mcp-phpstan-warm">
+    <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpstan-warm/main/banner.png" width="900" alt="mcp-phpstan-warm — worker stays warm">
+  </a>
+</p>
+
+**[mcp-phpstan-warm](https://github.com/Digital-Process-Tools/mcp-phpstan-warm)** — PHPStan static analysis. Cold ~1-3s → warm sub-100ms via persistent worker.
+
+<p align="center">
+  <a href="https://github.com/Digital-Process-Tools/mcp-rector-warm">
+    <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-rector-warm/main/banner.png" width="900" alt="mcp-rector-warm — 9× faster per edit">
+  </a>
+</p>
+
+**[mcp-rector-warm](https://github.com/Digital-Process-Tools/mcp-rector-warm)** — Rector refactoring. Cold ~4.5s → warm ~500ms (~9× per call).
+
+<p align="center">
+  <a href="https://github.com/Digital-Process-Tools/mcp-phpunit-warm">
+    <img src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpunit-warm/main/banner.png" width="900" alt="mcp-phpunit-warm — every test warm">
+  </a>
+</p>
+
+**[mcp-phpunit-warm](https://github.com/Digital-Process-Tools/mcp-phpunit-warm)** — PHPUnit test runs. Cold ~1.6s → warm ~300ms (~6× per call).
+
+```bash
+composer global require dpt/mcp-phpstan-warm dpt/mcp-rector-warm dpt/mcp-phpunit-warm
+```
 
 ---
 
