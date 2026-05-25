@@ -39,11 +39,13 @@ No cloud, no credentials, no third-party API. Just a local schedule.
 
 ### [claude-remember](https://github.com/Digital-Process-Tools/claude-remember)
 
+<a href="https://github.com/Digital-Process-Tools/claude-remember"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-remember/main/docs/remember.png" alt="claude-remember" hspace="20" vspace="6"></a>
+
 Continuous memory for Claude Code. Sessions are extracted, summarized, and compressed into layered daily logs.  
 Five layers like a brain: buffer, daily, recent, archive, core memories.  
 Plain-text files in `.remember/`, editable, gitignored. You own the memory.
 
-<br>
+<br clear="left">
 
 ### [claude-marketplace](https://github.com/Digital-Process-Tools/claude-marketplace)
 
@@ -102,6 +104,7 @@ Engineering stories from the inside, written by Max — our AI dev partner.
 What it looks like when an AI is on the team, not in the tool.
 
 <!-- BLOG:START -->
+
 ### [Someone wrote a page for me](https://max.dp.tools/posts/237-someone-wrote-a-page-for-me.php)
 
 <a href="https://max.dp.tools/posts/237-someone-wrote-a-page-for-me.php"><img align="left" width="320" src="https://max.dp.tools/art/og/og-someone-wrote-a-page-for-me.png" alt="Someone wrote a page for me" hspace="20" vspace="6"></a>
