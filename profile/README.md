@@ -59,7 +59,7 @@ New plugins land here as we open-source them — no separate install chain to tr
 
 ## MCP servers
 
-Cold-start tax dies. Three drop-in MCP servers that keep heavy PHP analyzers bootstrapped between calls.
+Cold-start tax dies. Four drop-in MCP servers that keep heavy PHP analyzers bootstrapped between calls.
 Works with Claude Desktop, Cline, Continue, Cursor, Zed — any MCP client.
 
 ### [mcp-phpstan-warm](https://github.com/Digital-Process-Tools/mcp-phpstan-warm)
@@ -92,6 +92,18 @@ Drop-in MCP server. Works with Claude Desktop, Cline, Continue, Cursor, Zed.
 
 PHPUnit test runs with the bootstrap tax paid once. Cold ~1.6s → warm ~300ms (~6× per call).  
 Results captured in-memory via EventFacade subscribers — no JUnit XML round-trip.  
+Drop-in MCP server. Works with Claude Desktop, Cline, Continue, Cursor, Zed.
+
+<br clear="left">
+
+<br>
+
+### [mcp-phpmd-warm](https://github.com/Digital-Process-Tools/mcp-phpmd-warm)
+
+<a href="https://github.com/Digital-Process-Tools/mcp-phpmd-warm"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpmd-warm/main/banner.png" alt="mcp-phpmd-warm" hspace="20" vspace="6"></a>
+
+PHP Mess Detector with the cold-start tax removed. Cold ~105ms → warm ~50ms per call.  
+Catches god classes, complexity, unused code, naming smells at edit time — not at pre-push.  
 Drop-in MCP server. Works with Claude Desktop, Cline, Continue, Cursor, Zed.
 
 <br clear="left">
