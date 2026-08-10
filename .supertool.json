@@ -1,0 +1,19 @@
+{
+  "defaults": {
+    "github_repo": "Digital-Process-Tools/.github"
+  },
+  "compact": false,
+  "rtk": false,
+  "allow_outside_cwd": false,
+  "allow_vim_shell": false,
+  "presets": ["github", "git"],
+  "validators": {
+    "git-status": {
+      "cmd": "{python} {supertool_dir}/validators/git-status/git-status.py {file}",
+      "match": "*",
+      "hooks_into": ["edit", "replace", "replace_lines", "paste", "append", "vim"],
+      "rollback_on_fail": false,
+      "timeout": 10
+    }
+  }
+}
