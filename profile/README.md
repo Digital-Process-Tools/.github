@@ -11,7 +11,7 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
 ## Claude plugins
 
 The plugins we use ourselves, every day, on every Claude Code session.
-Memory, batched ops, plugin marketplace, cap management — built for our workflow, shared with yours.
+Memory, batched ops, just-in-time context, plugin marketplace, cap management — built for our workflow, shared with yours.
 
 ### [claude-supertool](https://github.com/Digital-Process-Tools/claude-supertool)
 
@@ -44,6 +44,18 @@ No cloud, no credentials, no third-party API. Just a local schedule.
 Continuous memory for Claude Code. Sessions are extracted, summarized, and compressed into layered daily logs.  
 Five layers like a brain: buffer, daily, recent, archive, core memories.  
 Plain-text files in `.remember/`, editable, gitignored. You own the memory.
+
+<br clear="left">
+
+<br>
+
+### [claude-jit-context](https://github.com/Digital-Process-Tools/claude-jit-context)
+
+<a href="https://github.com/Digital-Process-Tools/claude-jit-context"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-jit-context/main/docs/jit-context.png" alt="claude-jit-context" hspace="20" vspace="6"></a>
+
+Project knowledge that loads only when it is needed. Rules, conventions and domain notes are matched against the prompt, the file being touched, or the tool about to run.  
+Everything in `.claude/rules/` loads every session whether or not it is relevant — this doesn't.  
+Know more, carry less: our own corpus is 1,000 entries, and none of it is resident.
 
 <br clear="left">
 
