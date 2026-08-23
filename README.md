@@ -1,5 +1,7 @@
 # .github
 
+![Digital Process Tools — the tools we build for ourselves, we share here](profile/banner.png)
+
 Organization-level files for [Digital Process Tools](https://github.com/Digital-Process-Tools).
 
 GitHub reads a few things from a repository named `.github` and applies them across the whole
