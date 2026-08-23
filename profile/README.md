@@ -59,6 +59,20 @@ Know more, carry less: our own corpus is 1,000 entries, and none of it is reside
 
 <br clear="left">
 
+<br>
+
+### [claude-oss](https://github.com/Digital-Process-Tools/claude-oss)
+
+<a href="https://github.com/Digital-Process-Tools/claude-oss"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-oss/main/docs/oss.png" alt="claude-oss" hspace="20" vspace="6"></a>
+
+The maintainer loop for an open-source repo, as a plugin. Triage the tracker, decide what is worth building, delegate it, review hard, merge on green, cut the release.  
+A loop written as prose gets copied between repos and the copies drift — this packages it once, and everything repo-specific lives in a config file the plugin writes by probing the repo.  
+Every check has three states: ok, a finding, and *could not run* — because a check that never ran and a check that found nothing look identical, and that is the bug that names the plugin.
+
+<br clear="left">
+
+<br>
+
 ### [claude-marketplace](https://github.com/Digital-Process-Tools/claude-marketplace)
 
 <a href="https://github.com/Digital-Process-Tools/claude-marketplace"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-marketplace/master/banner.png" alt="claude-marketplace" hspace="20" vspace="6"></a>
