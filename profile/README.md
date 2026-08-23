@@ -1,5 +1,7 @@
 # Digital Process Tools
 
+![Digital Process Tools — the tools we build for ourselves, we share here](https://raw.githubusercontent.com/Digital-Process-Tools/.github/main/profile/banner.png)
+
 **Freelance workforce management platform** — contracts, invoicing, talent databases, and compliance in a single tool.
 
 [digitalprocesstools.com](https://www.digitalprocesstools.com/)
