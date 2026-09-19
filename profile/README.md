@@ -13,7 +13,7 @@ We integrate AI into our daily engineering workflow. The tools we build for ours
 ## Claude plugins
 
 The plugins we use ourselves, every day, on every Claude Code session.
-Memory, batched ops, just-in-time context, plugin marketplace, cap management — built for our workflow, shared with yours.
+Memory, batched ops, just-in-time context, a maintainer loop, a swarm map, plugin marketplace, cap management — built for our workflow, shared with yours.
 
 ### [claude-supertool](https://github.com/Digital-Process-Tools/claude-supertool)
 
@@ -70,6 +70,18 @@ Know more, carry less: our own corpus is 1,000 entries, and none of it is reside
 The maintainer loop for an open-source repo, as a plugin. Triage the tracker, decide what is worth building, delegate it, review hard, merge on green, cut the release.  
 A loop written as prose gets copied between repos and the copies drift — this packages it once, and everything repo-specific lives in a config file the plugin writes by probing the repo.  
 Every check has three states: ok, a finding, and *could not run* — because a check that never ran and a check that found nothing look identical, and that is the bug that names the plugin.
+
+<br clear="left">
+
+<br>
+
+### [claude-swarm-builder](https://github.com/Digital-Process-Tools/claude-swarm-builder)
+
+<a href="https://github.com/Digital-Process-Tools/claude-swarm-builder"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-swarm-builder/main/docs/swarm.png" alt="claude-swarm-builder" hspace="20" vspace="6"></a>
+
+Declare a swarm of Claude Code agents once, in `swarm.json` — who spawns whom, with what, what comes back, who may do what. Read it as a map. Check it on every pull request.  
+A loop of agents grows one issue at a time; each file stays correct and the graph drifts — a rule that outlived its step, two paths for one job, a state nobody catches. Declaring claude-oss found six of those in one evening.  
+Structure lives in the JSON; behaviour stays in the agent MDs, where it already is.
 
 <br clear="left">
 
