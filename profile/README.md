@@ -19,13 +19,13 @@ Memory, batched ops, just-in-time context, a maintainer loop, a swarm map, plugi
 
 ### [claude-supertool](https://github.com/Digital-Process-Tools/claude-supertool)
 
-[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/claude-supertool?style=social)](https://github.com/Digital-Process-Tools/claude-supertool/stargazers)
-
 <a href="https://github.com/Digital-Process-Tools/claude-supertool"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/master/supertool-banner.webp" alt="claude-supertool" hspace="20" vspace="6"></a>
 
 Batched file operations for Claude Code. Collapse N reads/greps/globs into one bash round-trip.  
 Cuts output tokens, cache re-payments, wall time — the three bills that compound on autonomous runs.  
 Opt-in enforcement mode blocks competing tools so even busy agents stay in the lane.
+
+[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/claude-supertool?style=social)](https://github.com/Digital-Process-Tools/claude-supertool/stargazers)
 
 <br clear="left">
 
@@ -33,13 +33,13 @@ Opt-in enforcement mode blocks competing tools so even busy agents stay in the l
 
 ### [claude-5h-window-spread](https://github.com/Digital-Process-Tools/claude-5h-window-spread)
 
-[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/claude-5h-window-spread?style=social)](https://github.com/Digital-Process-Tools/claude-5h-window-spread/stargazers)
-
 <a href="https://github.com/Digital-Process-Tools/claude-5h-window-spread"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-5h-window-spread/main/banner.png" alt="claude-5h-window-spread" hspace="20" vspace="6"></a>
 
 Spread your Claude Pro/Max usage across more 5h windows. Up to 33% more effective cap from the same plan.  
 For devs locked out at 17:20 with 40 minutes of work left — no more mid-debug lockouts.  
 No cloud, no credentials, no third-party API. Just a local schedule.
+
+[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/claude-5h-window-spread?style=social)](https://github.com/Digital-Process-Tools/claude-5h-window-spread/stargazers)
 
 <br clear="left">
 
@@ -47,13 +47,13 @@ No cloud, no credentials, no third-party API. Just a local schedule.
 
 ### [claude-remember](https://github.com/Digital-Process-Tools/claude-remember)
 
-[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/claude-remember?style=social)](https://github.com/Digital-Process-Tools/claude-remember/stargazers)
-
 <a href="https://github.com/Digital-Process-Tools/claude-remember"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-remember/main/docs/remember.png" alt="claude-remember" hspace="20" vspace="6"></a>
 
 Continuous memory for Claude Code. Sessions are extracted, summarized, and compressed into layered daily logs.  
 Five layers like a brain: buffer, daily, recent, archive, core memories.  
 Plain-text files in `.remember/`, editable, gitignored. You own the memory.
+
+[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/claude-remember?style=social)](https://github.com/Digital-Process-Tools/claude-remember/stargazers)
 
 <br clear="left">
 
@@ -61,13 +61,13 @@ Plain-text files in `.remember/`, editable, gitignored. You own the memory.
 
 ### [claude-jit-context](https://github.com/Digital-Process-Tools/claude-jit-context)
 
-[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/claude-jit-context?style=social)](https://github.com/Digital-Process-Tools/claude-jit-context/stargazers)
-
 <a href="https://github.com/Digital-Process-Tools/claude-jit-context"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-jit-context/main/docs/jit-context.png" alt="claude-jit-context" hspace="20" vspace="6"></a>
 
 Project knowledge that loads only when it is needed. Rules, conventions and domain notes are matched against the prompt, the file being touched, or the tool about to run.  
 Everything in `.claude/rules/` loads every session whether or not it is relevant — this doesn't.  
 Know more, carry less: our own corpus is 1,000 entries, and none of it is resident.
+
+[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/claude-jit-context?style=social)](https://github.com/Digital-Process-Tools/claude-jit-context/stargazers)
 
 <br clear="left">
 
@@ -75,13 +75,13 @@ Know more, carry less: our own corpus is 1,000 entries, and none of it is reside
 
 ### [claude-oss](https://github.com/Digital-Process-Tools/claude-oss)
 
-[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/claude-oss?style=social)](https://github.com/Digital-Process-Tools/claude-oss/stargazers)
-
 <a href="https://github.com/Digital-Process-Tools/claude-oss"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-oss/main/docs/oss.png" alt="claude-oss" hspace="20" vspace="6"></a>
 
 The maintainer loop for an open-source repo, as a plugin. Triage the tracker, decide what is worth building, delegate it, review hard, merge on green, cut the release.  
 A loop written as prose gets copied between repos and the copies drift — this packages it once, and everything repo-specific lives in a config file the plugin writes by probing the repo.  
 Every check has three states: ok, a finding, and *could not run* — because a check that never ran and a check that found nothing look identical, and that is the bug that names the plugin.
+
+[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/claude-oss?style=social)](https://github.com/Digital-Process-Tools/claude-oss/stargazers)
 
 <br clear="left">
 
@@ -89,13 +89,13 @@ Every check has three states: ok, a finding, and *could not run* — because a c
 
 ### [claude-swarm-builder](https://github.com/Digital-Process-Tools/claude-swarm-builder)
 
-[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/claude-swarm-builder?style=social)](https://github.com/Digital-Process-Tools/claude-swarm-builder/stargazers)
-
 <a href="https://github.com/Digital-Process-Tools/claude-swarm-builder"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-swarm-builder/main/docs/swarm.png" alt="claude-swarm-builder" hspace="20" vspace="6"></a>
 
 Declare a swarm of Claude Code agents once, in `swarm.json` — who spawns whom, with what, what comes back, who may do what. Read it as a map. Check it on every pull request.  
 A loop of agents grows one issue at a time; each file stays correct and the graph drifts — a rule that outlived its step, two paths for one job, a state nobody catches. Declaring claude-oss found six of those in one evening.  
 Structure lives in the JSON; behaviour stays in the agent MDs, where it already is.
+
+[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/claude-swarm-builder?style=social)](https://github.com/Digital-Process-Tools/claude-swarm-builder/stargazers)
 
 <br clear="left">
 
@@ -103,13 +103,13 @@ Structure lives in the JSON; behaviour stays in the agent MDs, where it already 
 
 ### [claude-marketplace](https://github.com/Digital-Process-Tools/claude-marketplace)
 
-[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/claude-marketplace?style=social)](https://github.com/Digital-Process-Tools/claude-marketplace/stargazers)
-
 <a href="https://github.com/Digital-Process-Tools/claude-marketplace"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/claude-marketplace/master/banner.png" alt="claude-marketplace" hspace="20" vspace="6"></a>
 
 Our plugin marketplace for Claude Code. One command, all our plugins discoverable and updatable.  
 `/plugin marketplace add Digital-Process-Tools/claude-marketplace` then `/plugin install ...`.  
 New plugins land here as we open-source them — no separate install chain to track.
+
+[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/claude-marketplace?style=social)](https://github.com/Digital-Process-Tools/claude-marketplace/stargazers)
 
 <br clear="left">
 
@@ -120,13 +120,13 @@ Works with Claude Desktop, Cline, Continue, Cursor, Zed — any MCP client.
 
 ### [mcp-phpstan-warm](https://github.com/Digital-Process-Tools/mcp-phpstan-warm)
 
-[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/mcp-phpstan-warm?style=social)](https://github.com/Digital-Process-Tools/mcp-phpstan-warm/stargazers)
-
 <a href="https://github.com/Digital-Process-Tools/mcp-phpstan-warm"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpstan-warm/main/banner.png" alt="mcp-phpstan-warm" hspace="20" vspace="6"></a>
 
 PHPStan static analysis with the cold-start tax removed. Cold ~1-3s → warm sub-100ms per analyse.  
 Uses PHPStan's own `worker` subcommand (TCP NDJSON, same protocol as `--parallel`) to keep one worker alive.  
 Drop-in MCP server. Works with Claude Desktop, Cline, Continue, Cursor, Zed.
+
+[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/mcp-phpstan-warm?style=social)](https://github.com/Digital-Process-Tools/mcp-phpstan-warm/stargazers)
 
 <br clear="left">
 
@@ -134,13 +134,13 @@ Drop-in MCP server. Works with Claude Desktop, Cline, Continue, Cursor, Zed.
 
 ### [mcp-rector-warm](https://github.com/Digital-Process-Tools/mcp-rector-warm)
 
-[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/mcp-rector-warm?style=social)](https://github.com/Digital-Process-Tools/mcp-rector-warm/stargazers)
-
 <a href="https://github.com/Digital-Process-Tools/mcp-rector-warm"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-rector-warm/main/banner.png" alt="mcp-rector-warm" hspace="20" vspace="6"></a>
 
 Rector refactoring with the container kept warm between calls. Cold ~4.5s → warm ~500ms (~9× per call).  
 Container, ruleset, autoloader bootstrapped once. Reused per call.  
 Drop-in MCP server. Works with Claude Desktop, Cline, Continue, Cursor, Zed.
+
+[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/mcp-rector-warm?style=social)](https://github.com/Digital-Process-Tools/mcp-rector-warm/stargazers)
 
 <br clear="left">
 
@@ -148,13 +148,13 @@ Drop-in MCP server. Works with Claude Desktop, Cline, Continue, Cursor, Zed.
 
 ### [mcp-phpunit-warm](https://github.com/Digital-Process-Tools/mcp-phpunit-warm)
 
-[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/mcp-phpunit-warm?style=social)](https://github.com/Digital-Process-Tools/mcp-phpunit-warm/stargazers)
-
 <a href="https://github.com/Digital-Process-Tools/mcp-phpunit-warm"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpunit-warm/main/banner.png" alt="mcp-phpunit-warm" hspace="20" vspace="6"></a>
 
 PHPUnit test runs with the bootstrap tax paid once. Cold ~1.6s → warm ~300ms (~6× per call).  
 Results captured in-memory via EventFacade subscribers — no JUnit XML round-trip.  
 Drop-in MCP server. Works with Claude Desktop, Cline, Continue, Cursor, Zed.
+
+[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/mcp-phpunit-warm?style=social)](https://github.com/Digital-Process-Tools/mcp-phpunit-warm/stargazers)
 
 <br clear="left">
 
@@ -162,13 +162,13 @@ Drop-in MCP server. Works with Claude Desktop, Cline, Continue, Cursor, Zed.
 
 ### [mcp-phpmd-warm](https://github.com/Digital-Process-Tools/mcp-phpmd-warm)
 
-[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/mcp-phpmd-warm?style=social)](https://github.com/Digital-Process-Tools/mcp-phpmd-warm/stargazers)
-
 <a href="https://github.com/Digital-Process-Tools/mcp-phpmd-warm"><img align="left" width="320" src="https://raw.githubusercontent.com/Digital-Process-Tools/mcp-phpmd-warm/main/banner.png" alt="mcp-phpmd-warm" hspace="20" vspace="6"></a>
 
 PHP Mess Detector with the cold-start tax removed. Cold ~105ms → warm ~50ms per call.  
 Catches god classes, complexity, unused code, naming smells at edit time — not at pre-push.  
 Drop-in MCP server. Works with Claude Desktop, Cline, Continue, Cursor, Zed.
+
+[![Stars](https://img.shields.io/github/stars/Digital-Process-Tools/mcp-phpmd-warm?style=social)](https://github.com/Digital-Process-Tools/mcp-phpmd-warm/stargazers)
 
 <br clear="left">
 
